@@ -7,7 +7,7 @@ export const sliderItem = [
   },
   {
     id: 2,
-    img: "",https://media.istockphoto.com/id/484762746/photo/little-boy-travel-on-summer-tropical-beach-with-suitcase.jpg?s=612x612&w=0&k=20&c=N5T8jLH4RCYsyqD5LSPoWlereLrRXjcbzRgzMop_Kik=
+    img: "https://media.istockphoto.com/id/484762746/photo/little-boy-travel-on-summer-tropical-beach-with-suitcase.jpg?s=612x612&w=0&k=20&c=N5T8jLH4RCYsyqD5LSPoWlereLrRXjcbzRgzMop_Kik=",
     title: "SUMMER BIKINI COLLECTION",
     desc: "THE POWERFULL THEME YOU CAN TRUST",
   },
