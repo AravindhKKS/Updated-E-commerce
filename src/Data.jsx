@@ -1,7 +1,7 @@
 export const sliderItem = [
   {
     id: 1,
-    img: "https://m2.alothemes.com/milano/media/magiccart/magicslider/s/l/slide1.jpg",
+    img: "http://demo.magikthemes.com/skin/frontend/rwd/dezire/images/banner-img21.jpg",
     title: "SHOP OUR NEW COLLECTION",
     desc: "FORM HIGHT TO LOW, CLASSIC OR MODERN. WE HAVE YOU COVERD",
   },
@@ -13,7 +13,7 @@ export const sliderItem = [
   },
   {
     id: 3,
-    img: "http://demo.magikthemes.com/skin/frontend/rwd/dezire/images/banner-img21.jpg",
+    img: "https://m2.alothemes.com/milano/media/magiccart/magicslider/s/l/slide1.jpg",
     title: "BELLE BEST SELLING THEME",
     desc: "UNIQUE PRODUCTS BY THE  WORLD'S TOP DESIGNER",
   },
