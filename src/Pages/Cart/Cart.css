@@ -1,0 +1,291 @@
+.cartWrapper {
+  display: flex;
+  padding: 20px;
+}
+
+.cartLeft {
+  flex: 1;
+  border-right: 1px solid lightgray;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.cartRight {
+  flex: 1;
+}
+
+.cartTitleContainer {
+  display: flex;
+  padding-bottom: 5px;
+  border-bottom: 2px solid lightgray;
+}
+
+.cartTitle {
+  color: rgb(119, 117, 117);
+  font-weight: 600;
+}
+
+.cartTitleContainer .cartTitle:nth-child(1) {
+  flex: 5;
+  display: flex;
+  align-items: center;
+}
+
+.cartTitleContainer .cartTitle:nth-child(2) {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cartTitleContainer .cartTitle:nth-child(3) {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cartTitleContainer .cartTitle:nth-child(4) {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartProduct {
+  padding: 20px 0px;
+  display: flex;
+}
+
+.cartImage {
+  flex: 5;
+  display: flex;
+  align-items: center;
+}
+
+.cartImage > img {
+  width: 200px;
+  height: 200px;
+}
+
+.productName {
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.price {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.quntity {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carticon:hover {
+  background-color: rgb(168, 165, 165);
+}
+
+.quntity > span {
+  width: 12px;
+  height: 12px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtotal {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.cartButton {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.continue {
+  padding: 8px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(64, 64, 106);
+  background-color: white;
+  font-weight: 700;
+  border: 2px solid rgb(64, 64, 106);
+  cursor: pointer;
+}
+
+.continue:hover {
+  background-color: rgb(64, 64, 106);
+  color: white;
+}
+
+.update {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(170, 170, 253);
+  color: white;
+  cursor: pointer;
+}
+
+.update:hover {
+  background-color: rgb(147, 147, 172);
+}
+
+.cartRight {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CardSummary {
+  padding: 30px;
+  border: 1px solid gray;
+  width: 60%;
+  border-radius: 3px;
+}
+
+.summaryTitle {
+  font-weight: 300;
+  font-size: 30px;
+  margin: 10px 0px;
+}
+
+.summaryItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 22px 0px;
+}
+
+.summaryButton {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .cartWrapper {
+    flex-direction: column;
+  }
+  .cartLeft {
+    margin-right: 0px;
+  }
+  .productName {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .subtotal {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cartImage > img {
+    width: 100px;
+    height: 100px;
+  }
+  .productName {
+    font-size: 10px;
+  }
+
+  .price {
+    font-size: 10px;
+  }
+
+  .subtotal {
+    font-size: 10px;
+  }
+  .continue {
+    width: 50%;
+  }
+  .update {
+    width: 40%;
+  }
+  .cartRight {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .cartTitleContainer {
+    display: none;
+  }
+  .cartProduct {
+    display: flex;
+    flex-direction: column;
+  }
+  .cartImage {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+
+  .price {
+    margin: 10px 0px;
+  }
+  .quntity {
+    margin: 10px 0px;
+  }
+  .subtotal {
+    margin: 10px 0px;
+  }
+
+  .cartButton {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .continue {
+    width: 90%;
+    margin: 10px 0px;
+  }
+  .update {
+    width: 90%;
+  }
+  .CardSummary {
+    padding: 30px;
+    width: 100%;
+  }
+  .summaryItemText {
+    font-size: 16px;
+  }
+
+  .summaryItemPrice {
+    font-size: 16px;
+  }
+  .total {
+    font-weight: 800;
+  }
+  .price {
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,109 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.Navbar {
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.NavbarLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.NavbarLeftItem {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 0px 8px;
+  border-right: 0.5px solid rgb(50, 49, 49);
+}
+
+.NavbarLeftItem > P {
+  margin-right: 5px;
+}
+
+.NavbarLeftItem > span {
+  margin-left: 5px;
+}
+
+.NavbarRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.NavbarRightItem {
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.LinkWithoutStyle {
+  color: inherit;
+  text-decoration: none;
+  border: none;
+}
+
+@media screen and (max-width: 680px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .item1 {
+    display: none;
+  }
+  .item3 {
+    display: none;
+  }
+  .NavbarLeftItem > p {
+    font-size: 10px;
+  }
+  .NavbarLeft {
+    flex: 1;
+    margin: 0;
+  }
+  .NavbarRight {
+    flex: 3;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .NavbarRightItem {
+    font-size: 10px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .NavbarLeft {
+    flex: 1;
+  }
+  .NavbarLeftItem > p {
+    font-size: 5px;
+  }
+  .NavbarRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .NavbarRightItem {
+    font-size: 5px;
+  }
+}

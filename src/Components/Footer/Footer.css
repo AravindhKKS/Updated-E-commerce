@@ -1,0 +1,135 @@
+.Footer {
+  background-color: black;
+  color: white;
+  padding: 30px 0px;
+}
+
+.FooterWrapper {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px dotted gray;
+}
+
+.FooterLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.FooterRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ContentTitle {
+  margin: 20px 0px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.ContentText {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.ContentText:hover {
+  text-decoration: underline;
+}
+.ContactTitle {
+  margin: 20px 0px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.address {
+  margin: 15px 0px;
+}
+.phone {
+  margin: 15px 0px;
+}
+.mail {
+  margin: 15px 0px;
+}
+
+.RightContent2icon {
+  display: flex;
+  margin: 15px 0px;
+}
+
+.bottomContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.bottomLeft {
+  flex: 1;
+}
+.bottomLeft > P {
+  font-size: 16px;
+  font-weight: 600;
+}
+.buttomRight {
+  flex: 1;
+}
+
+.bottomContent img {
+  width: 400px;
+  height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .FooterWrapper {
+    flex-direction: column;
+  }
+  .FooterLeft {
+    justify-content: space-between;
+  }
+  .bottomLeft > p {
+    font-size: 15px;
+  }
+
+  .bottomRight > img {
+    width: 100px;
+  }
+  .LeftContent1 {
+    margin-right: 70px;
+    margin-left: 30px;
+  }
+
+  .RightContent1 {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Footer {
+    width: 100%;
+    padding: 0px 30px;
+  }
+  .FooterLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .FooterRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .bottomContent {
+    padding: 0;
+  }
+
+  .bottomLeft > p {
+    font-size: 5px;
+  }
+}

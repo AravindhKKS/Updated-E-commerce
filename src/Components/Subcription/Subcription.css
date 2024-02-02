@@ -1,0 +1,91 @@
+.Subcription {
+  width: 100%;
+  background-color: lightgray;
+}
+
+.Wrapper {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SubcriptionLeft {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+.LeftText {
+  flex: 2;
+  margin-right: 10px;
+  justify-content: start;
+  font-size: 15px;
+}
+
+.LeftInput {
+  flex: 9;
+  margin-right: 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+}
+.LeftInput:hover {
+  border: 1px solid darkgray;
+}
+
+.subInput {
+  border: none;
+  outline: none;
+  padding: 8px;
+}
+
+.subButton {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.SubcriptionRight {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rightContent {
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.rightIcon {
+  display: flex;
+}
+
+.subicon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .LeftText {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rightContent {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Subcription {
+    display: none;
+  }
+}

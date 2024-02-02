@@ -1,0 +1,101 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.HomeNav {
+  height: 50px;
+  background-color: rgb(253, 235, 235);
+}
+
+.HomeNavWrapper {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.HomeNavLeft {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.HomeNavCenter {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeNavText {
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.HomeNavRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.HomeNavInputContainer {
+  padding: 3px;
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+.Input {
+  border: none;
+  outline: none;
+}
+
+.HomeNavInputContainer:hover {
+  border: 1.5px solid slategray;
+}
+
+.LinkWithoutStyle {
+  color: inherit;
+  text-decoration: none;
+  border: none;
+}
+
+@media screen and (max-width: 700px) {
+  .HomeNavCenter {
+    display: none;
+  }
+  .HomeNavWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .HomeNavLeft {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+  }
+  .HomeNavRight {
+    flex: 1;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .Logo {
+    width: 80px;
+    height: 40px;
+  }
+  .HomeNavInputContainer {
+    width: 50%;
+    margin: 3px;
+  }
+  .Input {
+    width: 100%;
+  }
+}

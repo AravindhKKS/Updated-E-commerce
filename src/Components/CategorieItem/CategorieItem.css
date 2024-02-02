@@ -1,0 +1,48 @@
+
+
+.CategorieItem {
+  flex: 1;
+  margin: 3px;
+  height: 70vh;
+  position: relative;
+}
+
+.zoomable-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.CategorieItemTextContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  left: 40px;
+  bottom: 100px;
+}
+
+.CategorieItemTitle {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.CategorieItemButton {
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.zoomable-image.zoomed {
+  transition: 0.3s;
+  transform: scale(0.9);
+}
+
+
