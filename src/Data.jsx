@@ -1,19 +1,19 @@
 export const sliderItem = [
   {
     id: 1,
-    img: "http://demo.magikthemes.com/skin/frontend/rwd/dezire/images/banner-img21.jpg",
+    img: "https://m2.alothemes.com/milano/media/magiccart/magicslider/s/l/slide1.jpg",
     title: "SHOP OUR NEW COLLECTION",
     desc: "FORM HIGHT TO LOW, CLASSIC OR MODERN. WE HAVE YOU COVERD",
   },
   {
     id: 2,
-    img: "http://demo.magikthemes.com/skin/frontend/rwd/dezire/images/banner-img_1.jpg",
+    img: "",https://media.istockphoto.com/id/484762746/photo/little-boy-travel-on-summer-tropical-beach-with-suitcase.jpg?s=612x612&w=0&k=20&c=N5T8jLH4RCYsyqD5LSPoWlereLrRXjcbzRgzMop_Kik=
     title: "SUMMER BIKINI COLLECTION",
     desc: "THE POWERFULL THEME YOU CAN TRUST",
   },
   {
     id: 3,
-    img: "https://m2.alothemes.com/milano/media/magiccart/magicslider/s/l/slide1.jpg",
+    img: "https://media.istockphoto.com/id/1281397914/photo/indian-beautiful-bridal-woman-wear-traditional-wedding-dress-costume.jpg?s=612x612&w=0&k=20&c=96bCGO1Wcp-0m3IUm-qXL2NM40PhrGpNc8RjfTcaVJo=",
     title: "BELLE BEST SELLING THEME",
     desc: "UNIQUE PRODUCTS BY THE  WORLD'S TOP DESIGNER",
   },
