@@ -5,7 +5,7 @@ import Register from "./Pages/Register/Register";
 import ProductPage from "./Pages/ProductPage/ProductPage";
 import SingleProduct from "./Pages/SingleProduct/SingleProduct";
 import Cart from "./Pages/Cart/Cart";
-import { useSelector } from "react-redux";//useDispatch 
+//import { useSelector } from "react-redux";//useDispatch 
 // import { useEffect } from "react";
 // import { fetchData, sendCartData } from "./store/cartActions";
 
@@ -13,7 +13,7 @@ import { useSelector } from "react-redux";//useDispatch
 
 function App() {
   // const dispatch = useDispatch()
-    const isLoggedIn = useSelector((state) => state.auth.isLogged)
+    const isLoggedIn = true //useSelector((state) => state.auth.isLogged)
     // const cart = useSelector((state) => state.cart)
 // useEffect(() => {
 // dispatch(fetchData())
